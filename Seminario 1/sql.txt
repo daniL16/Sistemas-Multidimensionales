@@ -2,7 +2,7 @@
 
 SELECT LineaDeVenta.Fecha, Tienda.Tienda, LineaDeVenta.[ISBN-10], Libro.Titulo, Sum(LineaDeVenta.Unidades) AS Unidades, Sum([PVP]*[LineaDeVenta.Unidades]) AS Importe, Count(LineaDeVenta.[ISBN-10]) AS Clientes
 FROM (Libro RIGHT JOIN LineaDeVenta ON Libro.[ISBN-10] = LineaDeVenta.[ISBN-10]) RIGHT JOIN Tienda ON LineaDeVenta.Tienda = Tienda.Cod_tienda
-GROUP BY LineaDeVenta.Fecha, Tienda.Tienda, LineaDeVenta.[ISBN-10], Libro.Titulo;´
+GROUP BY LineaDeVenta.Fecha, Tienda.Tienda, LineaDeVenta.[ISBN-10], Libro.Titulo;
 
 2
 
