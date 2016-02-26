@@ -134,7 +134,7 @@ Podemos ver el resultado de la ejecución de la consulta en la siguiente imagen:
 \begin{center}
 	\includegraphics[scale=0.35]{1-zoom.png}
 \end{center}
-\textbf{Consulta 2:} Fecha, Tienda, ISBN-10, Título, Unidades, Importe, Clientes\\
+\textbf{Consulta 2:} Fecha, Tienda, ISBN-10, Título, Unidades, PVP, Clientes\\
 \textit{Solución:}
 
 \begin{lstlisting}[
@@ -155,6 +155,10 @@ Podemos ver el resultado de la ejecución de la consulta en la siguiente imagen:
 \begin{center}
 	\includegraphics[scale=0.35]{2-zoom.png}
 \end{center}
+Como se puede observar, para la segunda consulta se sustituye el importe de la venta (Unidades $\ast$ PVP) por el PVP del producto vendido.\\
+Esto obliga a agrupar por PVP (GROUP BY ... Libro.PVP ) en la segunda consulta mientras que en la primera no es necesario hacer esta agrupación.\\
+Lógicamente tambien cambia el SELECT ya que en la primera consulta como "Importe" no es un atributo de ninguna tabla debe definirse mediante: Sum([PVP]*[LineaDeVenta.Unidades]) AS Importe, y para obtener el PVP no es necesaria esta estructura.
+
 
 
 
