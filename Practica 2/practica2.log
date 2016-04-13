@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.12)  13 APR 2016 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.12)  13 APR 2016 13:01
 entering extended mode
-**./practica1.tex
-(practica1.tex
+**./practica2.tex
+(practica2.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
@@ -811,13 +811,13 @@ Package graphics Info: Driver file: pdftex.def on input line 94.
 )
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
-) (practica1.aux
+) (practica2.aux
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
-\openout1 = `practica1.aux'.
+\openout1 = `practica2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
 LaTeX Font Info:    ... okay on input line 110.
@@ -918,87 +918,86 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 112.
  ("C:\Users\Dani L\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
 "
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 116.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 112--126
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 122.
 
- []
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 126.
 
 ("C:\Users\Dani L\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 127.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 123.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
-<1-zoom.png, id=1, 1112.155pt x 551.05875pt>
-File: 1-zoom.png Graphic file (type png)
- <use 1-zoom.png>
-Package pdftex.def Info: 1-zoom.png used on input line 135.
-(pdftex.def)             Requested size: 389.26009pt x 192.87344pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+<fecha1.png, id=1, 718.93594pt x 444.15938pt>
+File: fecha1.png Graphic file (type png)
+ <use fecha1.png>
+Package pdftex.def Info: fecha1.png used on input line 130.
+(pdftex.def)             Requested size: 251.63135pt x 155.4581pt.
+
+<fecha2.png, id=3, 833.36343pt x 450.9347pt>
+File: fecha2.png Graphic file (type png)
+ <use fecha2.png>
+Package pdftex.def Info: fecha2.png used on input line 131.
+(pdftex.def)             Requested size: 291.68156pt x 157.8295pt.
  [1
 
 
-{C:/Users/Dani L/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+{C:/Users/Dani L/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./fecha1.p
+ng>]
+<sum1.png, id=11, 775.39688pt x 520.94624pt>
+File: sum1.png Graphic file (type png)
+ <use sum1.png>
+Package pdftex.def Info: sum1.png used on input line 150.
+(pdftex.def)             Requested size: 271.39297pt x 182.33391pt.
 
- []
+<sum2.png, id=12, 848.4197pt x 512.66531pt>
+File: sum2.png Graphic file (type png)
+ <use sum2.png>
+Package pdftex.def Info: sum2.png used on input line 151.
+(pdftex.def)             Requested size: 296.95134pt x 179.43553pt.
+ [2 <./fecha2.png> <./sum1.png>] <id1.png, id=18, 917.67844pt x 544.28343pt>
+File: id1.png Graphic file (type png)
+ <use id1.png>
+Package pdftex.def Info: id1.png used on input line 170.
+(pdftex.def)             Requested size: 321.19226pt x 190.50204pt.
 
-<2-zoom.png, id=11, 1111.15125pt x 554.07pt>
-File: 2-zoom.png Graphic file (type png)
- <use 2-zoom.png>
-Package pdftex.def Info: 2-zoom.png used on input line 156.
-(pdftex.def)             Requested size: 388.90875pt x 193.9274pt.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 158.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 158.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 158.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 158.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 158.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 158.
- [2 <./1-zoom.png> <./2-zoom.png>] [3] (practica1.aux
+<id2.png, id=19, 825.83531pt x 512.66531pt>
+File: id2.png Graphic file (type png)
+ <use id2.png>
+Package pdftex.def Info: id2.png used on input line 171.
+(pdftex.def)             Requested size: 289.04669pt x 179.43553pt.
+ [3 <./sum2.png> <./id1.png>] [4 <./id2.png>] (practica2.aux
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 8080 strings out of 493634
- 112587 string characters out of 3134829
- 279270 words of memory out of 3000000
- 11325 multiletter control sequences out of 15000+200000
- 75350 words of font info for 88 fonts, out of 3000000 for 9000
+ 8065 strings out of 493634
+ 112326 string characters out of 3134829
+ 280962 words of memory out of 3000000
+ 11316 multiletter control sequences out of 15000+200000
+ 51460 words of font info for 58 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,11n,47p,321b,1340s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,47p,274b,1340s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Dani L\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\ectt1095.pk>{C:/Users/Dani L/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
-s/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/fourier
-/fourier-ms.pfb><C:/Users/Dani L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-adobe/utopia/putb8a.pfb><C:/Users/Dani L/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/adobe/utopia/putr8a.pfb><C:/Users/Dani L/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on practica1.pdf (3 pages, 167331 bytes).
+s/fontname/8r.enc}<C:/Users/Dani L/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/adobe/utopia/putr8a.pfb>
+Output written on practica2.pdf (4 pages, 249378 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
