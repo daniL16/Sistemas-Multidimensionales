@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.12)  13 APR 2016 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.12)  18 APR 2016 12:52
 entering extended mode
 **./practica2.tex
 (practica2.tex
@@ -953,31 +953,39 @@ Package pdftex.def Info: fecha2.png used on input line 131.
  [1
 
 
-{C:/Users/Dani L/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./fecha1.p
-ng>]
-<sum1.png, id=11, 775.39688pt x 520.94624pt>
+{C:/Users/Dani L/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
+
+ []
+
+<sum1.png, id=10, 775.39688pt x 520.94624pt>
 File: sum1.png Graphic file (type png)
  <use sum1.png>
-Package pdftex.def Info: sum1.png used on input line 150.
+Package pdftex.def Info: sum1.png used on input line 153.
 (pdftex.def)             Requested size: 271.39297pt x 182.33391pt.
 
-<sum2.png, id=12, 848.4197pt x 512.66531pt>
+<sum2.png, id=11, 848.4197pt x 512.66531pt>
 File: sum2.png Graphic file (type png)
  <use sum2.png>
-Package pdftex.def Info: sum2.png used on input line 151.
+Package pdftex.def Info: sum2.png used on input line 154.
 (pdftex.def)             Requested size: 296.95134pt x 179.43553pt.
- [2 <./fecha2.png> <./sum1.png>] <id1.png, id=18, 917.67844pt x 544.28343pt>
+ [2 <./fecha1.png> <./fecha2.png>] <id1.png, id=17, 917.67844pt x 544.28343pt>
 File: id1.png Graphic file (type png)
  <use id1.png>
-Package pdftex.def Info: id1.png used on input line 170.
+Package pdftex.def Info: id1.png used on input line 177.
 (pdftex.def)             Requested size: 321.19226pt x 190.50204pt.
 
-<id2.png, id=19, 825.83531pt x 512.66531pt>
+<id2.png, id=18, 825.83531pt x 512.66531pt>
 File: id2.png Graphic file (type png)
  <use id2.png>
-Package pdftex.def Info: id2.png used on input line 171.
+Package pdftex.def Info: id2.png used on input line 178.
 (pdftex.def)             Requested size: 289.04669pt x 179.43553pt.
- [3 <./sum2.png> <./id1.png>] [4 <./id2.png>] (practica2.aux
+ [3 <./sum1.png> <./sum2.png>] [4 <./id1.png> <./id2.png>] (practica2.aux
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 LaTeX Info: Redefining \. on input line 7.
@@ -986,16 +994,16 @@ LaTeX Info: Redefining \% on input line 7.
 Here is how much of TeX's memory you used:
  8065 strings out of 493634
  112326 string characters out of 3134829
- 280962 words of memory out of 3000000
+ 281133 words of memory out of 3000000
  11316 multiletter control sequences out of 15000+200000
  51460 words of font info for 58 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,11n,47p,274b,1340s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,47p,415b,1340s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Dani L\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\ectt1095.pk>{C:/Users/Dani L/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
 s/fontname/8r.enc}<C:/Users/Dani L/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/adobe/utopia/putr8a.pfb>
-Output written on practica2.pdf (4 pages, 249378 bytes).
+Output written on practica2.pdf (4 pages, 251361 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

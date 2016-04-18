@@ -109,8 +109,8 @@
 
 \begin{document}
 \maketitle % Escribe el título
-
-En primer lugar para obtener la tabla de la dimensión Fecha, hacemos una consulta de las fechas, obteniendo el año de las mismas.
+Cómo queremos implementar un sistema multidimensional ROLAP en Estrella, cada dimensión debe tener una tabla. Por ello, hemos de crear la tabla Fecha para conseguirlo hacemos una consulta en la tabla LineaDeVenta de las fechas existentes, obteniendo además de la fecha, el año. 
+\newline El código SQL generado para la consulta es el siguiente:
 \begin{lstlisting}[
 language=SQL,
 breaklines=true,
@@ -122,16 +122,17 @@ commentstyle=\color{gray}
 ]
 SELECT DISTINCT LineaDeVenta.Fecha,Year([LineaDeVenta].[Fecha]) AS Anio INTO Fecha 
 FROM LineaDeVenta;
-
 \end{lstlisting}
-Podemos ver el resultado de la ejecución de la consulta en las siguientes imagen:\\
+
+Podemos ver el resultado de la ejecución de la consulta en las siguientes imágenes:\\
 \\
 \begin{center}
 	\includegraphics[scale=0.35]{fecha1.png}
 	\includegraphics[scale=0.35]{fecha2.png}
 \end{center}
-
-A continuación, efectuamos las agregaciones en la tabla LineaDeVenta
+\bigskip
+A continuación,  llevaremos a cabo las agregaciones necesarias en la tabla LineaDeVenta para obtener las mediciones unidades y cliente. Además, añadiremos las mediciones calculadas importe y media precio. Esta consulta será guardada en una tabla auxiliar. 
+\newline El código SQL necesario es el siguiente:
 \begin{lstlisting}[
 language=SQL,
 breaklines=true,
@@ -144,13 +145,18 @@ commentstyle=\color{gray}
 SELECT LineaDeVenta.Tienda, LineaDeVenta.[ISBN-10], LineaDeVenta.Fecha, Sum(LineaDeVenta.Unidades) AS Unidades_, Count(LineaDeVenta.Ticket) AS Clientes, Sum([PVP]*[Unidades]) AS Importe, [Importe]/Sum([Unidades]) AS Media_precio INTO aux
 FROM Libro LEFT JOIN LineaDeVenta ON Libro.[ISBN-10] = LineaDeVenta.[ISBN-10]
 GROUP BY LineaDeVenta.Tienda, LineaDeVenta.[ISBN-10], LineaDeVenta.Fecha;
-
 \end{lstlisting}
+
+En las siguientes imágenes podemos ver, la vista de diseño de la consulta y el resultado obtenido, respectivamente.\\
+\\
 \begin{center}
 	\includegraphics[scale=0.35]{sum1.png}
 	\includegraphics[scale=0.35]{sum2.png}
 \end{center}
-Y finalmente, cambiamos los códigos por los identificadores
+\bigskip
+Finalmente, cambiaremos los valores codigo de tienda, ISBN-10 y Fecha por los códigos autonúmericos generados en las tablas de las dimensiones.
+\newline El código SQL necesario es el siguiente:
+
 \begin{lstlisting}[
 language=SQL,
 breaklines=true,
@@ -166,8 +172,9 @@ WHERE (((aux.[ISBN-10])=[Libro].[ISBN-10]) AND ((aux.Fecha)=[Fecha].[Fecha]) AND
 
 
 \end{lstlisting}
+En las siguientes imágenes se muestra la consulta que hemos realizado y el resultado definitivo de la tabla del hecho Venta.
 \begin{center}
-	\includegraphics[scale=0.35]{id1.png} \\
+	\includegraphics[scale=0.35]{id1.png}
 	\includegraphics[scale=0.35]{id2.png}
 \end{center}
 
