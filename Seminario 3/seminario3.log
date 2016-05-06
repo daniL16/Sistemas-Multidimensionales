@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.12)  2 MAY 2016 13:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.12)  6 MAY 2016 13:46
 entering extended mode
 **./seminario3.tex
 (seminario3.tex
@@ -923,35 +923,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--119
-
- []
-
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 115.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 117.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 117.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 117.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 117.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 117.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 117.
 [1
 
 
 {C:/Users/Dani L/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(seminario3.aux
+<img1.png, id=8, 743.77875pt x 476.53032pt>
+File: img1.png Graphic file (type png)
+ <use img1.png>
+Package pdftex.def Info: img1.png used on input line 121.
+(pdftex.def)             Requested size: 371.88846pt x 238.26457pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+[2 <./img1.png>] (seminario3.aux
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 7465 strings out of 493634
- 105802 string characters out of 3134829
- 231384 words of memory out of 3000000
- 10733 multiletter control sequences out of 15000+200000
- 46497 words of font info for 54 fonts, out of 3000000 for 9000
+ 7504 strings out of 493634
+ 106316 string characters out of 3134829
+ 232384 words of memory out of 3000000
+ 10762 multiletter control sequences out of 15000+200000
+ 70590 words of font info for 83 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,11n,47p,595b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,47p,957b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Dani L/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/
 8r.enc}<C:/Users/Dani L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/adobe/uto
-pia/putr8a.pfb>
-Output written on seminario3.pdf (1 page, 21460 bytes).
+pia/putb8a.pfb><C:/Users/Dani L/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/a
+dobe/utopia/putr8a.pfb><C:/Users/Dani L/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/adobe/utopia/putri8a.pfb>
+Output written on seminario3.pdf (2 pages, 93785 bytes).
 PDF statistics:
- 11 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

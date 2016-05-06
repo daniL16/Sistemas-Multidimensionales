@@ -111,9 +111,17 @@
 \maketitle % Escribe el título
 Objetivo: Implementar una base de datos MOLAP y saber realizar operaciones multidimensionales sobre ella para la obtención de informes.\\
 
-1. De forma tutelada, realizad las acciones necesarias para implementar, de manera coherente con el diseño conceptual y la base de datos aportada, un cubo multidimensional utilizando la herramienta Excel (Sugerencia: antes de implementar algo con Excel, haced con Access las modificaciones necesarias). Haciendo uso de Excel, cread una tabla dinámica asociada al cubo y obtened, de forma tutelada, el siguiente informe: “Importe de las ventas y cantidad de clientes para cada autor y región de ventas en los primeros siete días del mes de septiembre de 2010”.
-Para cada paso realizado en la obtención del informe, indicad la operación que se realiza y el cubo que se obtiene (detallando el nivel en cada una de la dimensiones).
-Incluid una copia de la pantalla donde se pueda ver el informe final generado.\\
-2. A partir del informe anterior, definid y obtened con Excel otro informe libre aplicando al menos una vez cada una de las operaciones multidimensionales, indicando, paso a paso, la operación que se aplica y el cubo obtenido en cada caso.
-Incluid una copia de la pantalla donde se pueda ver el informe final generado.\\
+\textbf{1. De forma tutelada, realizad las acciones necesarias para implementar, de manera coherente con el diseño conceptual y la base de datos aportada, un cubo multidimensional utilizando la herramienta Excel (Sugerencia: antes de implementar algo con Excel, haced con Access las modificaciones necesarias). Haciendo uso de Excel, cread una tabla dinámica asociada al cubo y obtened, de forma tutelada, el siguiente informe: “Importe de las ventas y cantidad de clientes para cada autor y región de ventas en los primeros siete días del mes de septiembre de 2010”.
+Para cada paso realizado en la obtención del informe, indicad la operación que se realiza y el cubo que se obtiene (detallando el nivel en cada una de la dimensiones).Incluid una copia de la pantalla donde se pueda ver el informe final generado.}\medskip
+
+En primer lugar desde Datos->Informe de tablas y datos dinámicos añadimos la base de datos de Access, añadiendo la tabla $consultaExcel$ y creando un cubo OLAP. Durante la creación del cubo añadimos las dimensiones teniendo en cuenta que cada jerarquía debe ser tratada como una dimensión(la dimensión Qué tiene las jerarquías Qué1(Título,Autor) y Qué2(Título,Categoría)).Una vez creada la tabla dinámica, agregamos el autor en el área de filas que es una operación drill-down. El nivel del cubo es Que:Autor, Donde:Todo, Cuando:Todo. A continuación, agregamos la región de ventas en el área de columnas. De nuevo es una operación drill-down y el nivel del cubo es Que:Autor, Donde:Region\_Ventas, Cuando:Todo. Finalmente agregamos la fecha en área de columnas y seleccionamos las fechas indicadas. La operación realizada al seleccionar las fechas es slice\&dice y el nivel del cubo no varía.
+\newline
+El resultado del informe se muestra en la siguiente imagen:
+\begin{center}
+	\includegraphics[scale=0.5]{img1.png}
+\end{center}
+\bigskip
+\textbf{2. A partir del informe anterior, definid y obtened con Excel otro informe libre aplicando al menos una vez cada una de las operaciones multidimensionales, indicando, paso a paso, la operación que se aplica y el cubo obtenido en cada caso.
+Incluid una copia de la pantalla donde se pueda ver el informe final generado.\\}
+
 \end{document}
