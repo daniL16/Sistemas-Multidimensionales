@@ -109,6 +109,9 @@
 
 \begin{document}
 \maketitle % Escribe el título
+\newpage
+\textbf{1. Implementar, de manera coherente con el diseño conceptual citado y la base de datos aportada, un cubo multidimensional mediante la herramienta Excel.}\\
+
 En primer lugar usamos Access para obtener las tablas del modelo conceptual. Para obtener la dimensión Cuando haremos una consulta en la tabla LineaDeVenta. La vista del Diseño de la consulta es la siguiente:
 
 \begin{center}
@@ -135,7 +138,7 @@ Podemos ver el resultado de la ejecución de la consulta en las siguiente imagen
 \end{center}
 \bigskip
 
-A continuación, hacemos otra consulta para la creación de la tabla Venta usando las claves autogeneradas de las tablas Libro, Fecha y Tienda y añadiendo las mediciones.
+A continuación, hacemos otra consulta para la creación de la tabla Venta usando las claves autogeneradas de las tablas Libro, Fecha y Tienda y añadiendo las mediciones(teniendo en cuenta su aditividad).
 \begin{center}
 	\includegraphics[scale=0.5]{img3.png}
 \end{center}
@@ -160,10 +163,9 @@ Podemos ver el resultado de la ejecución de la consulta en las siguiente imagen
 \end{center}
 \bigskip 
 
-\begin{center}
-	\includegraphics[scale=0.5]{img5.png}
-\end{center}
+Finalmente, creamos la consulta que usará Excel. Para ello debemos tener en cuenta que cada jerarquía debe ser considerada cómo una dimensión y que la fecha debe estar en formato texto. 
 El código SQL generado para la consulta es el siguiente:
+
 \begin{lstlisting}[
 language=SQL,
 breaklines=true,
@@ -176,12 +178,15 @@ commentstyle=\color{gray}
 SELECT Libro.Titulo, Libro.Autor, Tienda.Tienda AS Tienda1, Tienda.Zona_de_ventas, Tienda.Tienda, Tienda.Provincia, Fecha.Fecha AS Fecha1, Fecha.Mes, Fecha.Anio AS Anio1, Format([Fecha].[Fecha],"dd/mm/yyyy") AS Fecha, Fecha.Semana, Fecha.Anio, Venta.Unidades, Venta.Clientes, Venta.Importe, Venta.Compra_Media_Unidades
 FROM Fecha INNER JOIN ((Venta INNER JOIN Tienda ON Venta.Id_tienda = Tienda.Id_tienda) INNER JOIN Libro ON Venta.Id_libro = Libro.Id_libro) ON Fecha.Id_fecha = Venta.Id_fecha;
 \end{lstlisting}
-Podemos ver el resultado de la ejecución de la consulta en las siguiente imagen:\\
-\\
+La vista de diseño de la consulta y el resultado de la misma se puede observar en las siguientes imágenes:\\
 \begin{center}
+	\includegraphics[scale=0.5]{img5.png}
+	
+	\medskip
+	
 	\includegraphics[scale=0.5]{img6.png}
 \end{center}
-
+Ahora desde la herramienta Excel, creamos el cubo OLAP añadiendo las dimensiones y las mediciones, cómo se muestra en las siguientes imágenes. Dado que para añadir la medición Compra\_Media\_Unidades(no aditiva, por ser una media), debemos seleccionar una función para resumir los datos hemos seleccionado la función máximo.
 \begin{center}
 	\includegraphics[scale=0.75]{img7.png}
 	
@@ -189,4 +194,18 @@ Podemos ver el resultado de la ejecución de la consulta en las siguiente imagen
 	
 	\includegraphics[scale=0.75]{img8.png}
 \end{center}
+
+\textbf{2. Partiendo de un informe en blanco y haciendo uso de la implementación anterior y de una tabla dinámica asociada al cubo, se desea tener el siguiente informe: “Importe de las ventas y compra media de unidades por tienda el 18 de enero de 2015 y el 18 de enero de 2016”.}
+\\
+El nivel del cubo inicial es Qué:Todo, Cuando:Todo, Dónde:Todo. En primer lugar añadimos las mediciones al área de datos. A continuación, agregamos la dimensión Dónde(en nuestro caso Donde2) al área de filas. Hemos efectuado una operación drill-down y el nivel de cubo es Qué:Todo,Cuando:Todo,Dónde:Provincia. Para mostrar las tiendas seleccionamos Mostrar detalle. De nuevo es una operación drill-down y el nivel de cubo es Qué:Todo, Cuando:Todo, Dónde:Tienda. Para ver sólo las tiendas en el informe seleccionamos la opción Ocultar niveles sobre Provincia. No es una operación y por tanto el nivel del cubo no cambia.\\
+Finalmente, añadimos la dimensión Cuando al área de páginas y seleccionamos las fechas deseadas. Es una operación slice\&dice y el nivel del cubo no varía.\\
+\\
+El resultado del informe es el siguiente:
+\\
+\begin{center}
+	\includegraphics[scale=0.75]{img9.png}
+\end{center}
+
+
+
 \end{document}
