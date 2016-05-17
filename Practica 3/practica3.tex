@@ -207,5 +207,28 @@ El resultado del informe es el siguiente:
 \end{center}
 
 
+\textbf{3. A partir del informe anterior, se pide la definición y generación de una secuencia de informes donde se documente el uso de las operaciones Drill Down, Roll Up y Slice \& Dice, indicando, paso a paso, la operación que se aplica y el cubo obtenido en cada caso, e incluyendo las copias de pantalla donde se pueda ver la evolución de la secuencia de informes y el informe final generado.}
+\\
+El nivel original del cubo es el mismo que teníamos al final del ejercicio 2: Qué:Todo, Cuando:Todo, Dónde:Tienda.\\
+En primer lugar vamos a realizar una operación drill-down en la que mostraremos el detalle de las provincias (moviendonos en dos jerarquías)
+Ahora el nivel del cubo es: Qué:Todo, Cuando:Todo, Dónde:Tienda y Provincia.
+
+\begin{center}
+	\includegraphics[scale=0.75]{drillDown.png}
+\end{center}
+
+Ahora vamos a hacer slice \& dice y vamos a seleccionar únicamente las tiendas de la provincia de Granada.\\
+Como sabemos el nivel del cubo no cambia.
+\begin{center}
+	\includegraphics[scale=0.75]{slice&dice.png}
+\end{center}
+	
+Por último vamos a hacer roll-up por la dimension Donde y vamos a eliminar el detalle de las tiendas.
+La dimension del cubo es: Qué:Todo, Cuando:Todo, Dónde:Provincia.
+
+\begin{center}
+	\includegraphics[scale=0.75]{rollup.png}
+\end{center}
+	
 
 \end{document}
