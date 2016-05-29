@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>semi4</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>RIwyKJ0SVl594Msv1qB8exXtSZY=23/05/2016 20:21:3823/05/2016 20:21:38</TimeStamp>
+        <ID>
+          <String>Libros s04</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Mj2cqtNWV5AGub5ceNQ8R49at7Y=23/05/2016 20:26:4923/05/2016 20:26:49</TimeStamp>
+        <ID>
+          <String>Libros s04</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/iT++QebQm2khxYFzu2oslKWZZU=23/05/2016 20:48:5623/05/2016 20:48:56</TimeStamp>
+        <ID>
+          <String>Cuando</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IIBNUG2DDg1DHHokPLNOUYBM7S4=23/05/2016 21:01:2823/05/2016 20:48:56</TimeStamp>
+        <ID>
+          <String>Donde</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0E/jYNjxkUIaD2JxlOWdtnv/Rfo=23/05/2016 20:48:5723/05/2016 20:48:56</TimeStamp>
+        <ID>
+          <String>Que</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>vXdfag33Yfk6rL9O3VvQ1/V1Psc=23/05/2016 21:01:2823/05/2016 20:48:56sDZNWG3ITMuQyQgvEmNIR8w2jCs=23/05/2016 20:48:5623/05/2016 20:48:56</TimeStamp>
+        <ID>
+          <String>Libros s04</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>NkCFii3e7pYXAHDSyVMIF5OkRxg=23/05/2016 20:15:2423/05/2016 20:15:24</TimeStamp>
+      <ID>
+        <String>semi4</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-05-23T20:02:35Z</LastDeployed>
+</DeploymentSnapshot>
