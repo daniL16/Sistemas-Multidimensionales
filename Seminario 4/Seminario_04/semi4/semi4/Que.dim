@@ -1,0 +1,246 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b7ee1329-2cf7-41d5-9410-b3d3c7f56a95" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Que</ID>
+  <Name>Que</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3817" scrolltop="-6720" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12806" y="21881" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Que" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3281" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000d10c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Que" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3817</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6720</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="92">
+            <Shape Id="Id Que" Expanded="true">
+              <Attributes>
+                <Attribute Id="Id Que" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Titulo" Expanded="true">
+              <Attributes>
+                <Attribute Id="Titulo" />
+                <Attribute Id="ISBN" />
+              </Attributes>
+              <Position x="140" y="20" />
+            </Shape>
+            <Shape Id="Categoria" Expanded="false">
+              <Attributes>
+                <Attribute Id="Categoria" />
+              </Attributes>
+              <Position x="260" y="20" />
+            </Shape>
+            <Shape Id="Autor" Expanded="false">
+              <Attributes>
+                <Attribute Id="Autor" />
+              </Attributes>
+              <Position x="260" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="02fe14a6-e6f1-431f-8e0e-8fd198b8c46e">
+    <DataSourceViewID>Libros s04</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="3a5665e6-9af9-4118-b1b8-a1aea7228ee6">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="e27e4324-10b0-4613-88b2-4d75fe7a415f">
+      <ID>Id Que</ID>
+      <Name>Id Que</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5f15bad8-ebae-4e5e-92a2-d4b016e4f9af">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="79095558-0861-4c7c-82bc-0e2fb826abe2">
+            <TableID>Que</TableID>
+            <ColumnID>Id_Que</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="439440d3-632f-4724-90ba-22e2c783632b">
+          <AttributeID>Titulo</AttributeID>
+          <Name>Titulo</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="f170efe1-a6a2-4ee4-b4f2-9b8fa198d899">
+      <ID>ISBN</ID>
+      <Name>ISBN</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d8411efd-953c-46a1-86e0-dd03baa4d8e9">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a693d321-eaa7-43ba-9307-8ffcbdd59631">
+            <TableID>Que</TableID>
+            <ColumnID>ISBN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="132cc5f1-3563-4ebf-b915-9b1d048c8f4c">
+      <ID>Titulo</ID>
+      <Name>Titulo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="26ada68e-4f98-4163-b61f-655d4a3f33cf">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b46ffd33-134a-444d-bcfa-33a4639efbfc">
+            <TableID>Que</TableID>
+            <ColumnID>Titulo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ca5a4e96-495e-4086-908e-fc3c43b854cf">
+          <AttributeID>Autor</AttributeID>
+          <Name>Autor</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a2daf9ed-b17c-4129-9194-60ccf6dc1078">
+          <AttributeID>Categoria</AttributeID>
+          <Name>Categoria</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="426b3333-5830-419e-8eba-568abf61a06a">
+          <AttributeID>ISBN</AttributeID>
+          <Name>ISBN</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="3b6a3bad-47d9-4e86-a368-a1fdef163da3">
+      <ID>Autor</ID>
+      <Name>Autor</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="51cccc21-bb8e-4532-97c6-aa5a6c5b1aed">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="70c4f4fc-3227-437e-a2c7-8c07c0535cb8">
+            <TableID>Que</TableID>
+            <ColumnID>Autor</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="5c881f80-6fd7-4541-b758-969d4bb75a3a">
+      <ID>Categoria</ID>
+      <Name>Categoria</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f8bceff9-f92d-4d29-9777-915eea87c5cf">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="165afd18-d02a-4fe9-b423-f0bc460d0977">
+            <TableID>Que</TableID>
+            <ColumnID>Categoria</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="5d013413-0511-410e-b6d9-b89de0fc61ef">
+      <ID>Hierarchy</ID>
+      <Name>J_autor</Name>
+      <Levels>
+        <Level dwd:design-time-name="b8931cf4-e380-433e-96b8-0db4efa52339">
+          <ID>Autor</ID>
+          <Name>Autor</Name>
+          <SourceAttributeID>Autor</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9a3fbf79-992b-4f3a-a10a-ee0df600c170">
+          <ID>Titulo</ID>
+          <Name>Titulo</Name>
+          <SourceAttributeID>Titulo</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="d3d34f43-04d6-489b-8887-e4b4ebd8c563">
+      <ID>Hierarchy 1</ID>
+      <Name>J_categoria</Name>
+      <Levels>
+        <Level dwd:design-time-name="9f2678dc-e8d6-49a8-9d79-eac8dca267bf">
+          <ID>Categoria</ID>
+          <Name>Categoria</Name>
+          <SourceAttributeID>Categoria</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e69c794b-7a61-4e16-9afd-afd0775eac08">
+          <ID>Titulo</ID>
+          <Name>Titulo</Name>
+          <SourceAttributeID>Titulo</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>
