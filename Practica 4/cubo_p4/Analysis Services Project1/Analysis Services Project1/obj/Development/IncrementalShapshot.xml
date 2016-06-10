@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Analysis Services Project1</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>QUcksAhagfjxcCfkXMR799dMwig=09/06/2016 20:04:5009/06/2016 20:04:50</TimeStamp>
+        <ID>
+          <String>Ventas Enero PR3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>2lGjOJ5iFg6BA9RDAsjDX1Ry7bY=09/06/2016 20:05:3809/06/2016 20:05:09</TimeStamp>
+        <ID>
+          <String>Ventas Enero PR3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ffRxaHCZwDZFy0OcyNtjw6NZN0s=09/06/2016 20:27:3809/06/2016 20:05:38</TimeStamp>
+        <ID>
+          <String>Que</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/0dX1o7IOtsSj7MRnxt+H3KSDmA=09/06/2016 20:54:0809/06/2016 20:05:38</TimeStamp>
+        <ID>
+          <String>Donde</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HbsgMVCvsNsi6pmfQ8lNtAj7f1U=09/06/2016 20:31:5909/06/2016 20:05:38</TimeStamp>
+        <ID>
+          <String>Cuando</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>GDkIHQ09XjAZR6/1s+p6jKMN1yI=09/06/2016 20:54:0809/06/2016 20:05:37JmZdjhxCmrEFpSjCX1Mnx0CAha4=09/06/2016 20:05:3809/06/2016 20:05:38</TimeStamp>
+        <ID>
+          <String>Ventas Enero PR3</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>EeRwbqKkuaNv/Ltppd/y7wIbfaU=09/06/2016 20:03:0909/06/2016 20:03:08</TimeStamp>
+      <ID>
+        <String>Analysis Services Project1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-06-09T19:54:09Z</LastDeployed>
+</DeploymentSnapshot>

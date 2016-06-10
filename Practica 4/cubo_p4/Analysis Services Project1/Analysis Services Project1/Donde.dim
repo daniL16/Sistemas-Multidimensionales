@@ -1,0 +1,246 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="82eb071c-f273-4789-8ec3-4b5e932dcadd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Donde</ID>
+  <Name>Donde</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3790" scrolltop="-7646" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10954" y="18441" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Donde" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3334" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000060d00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Donde" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3790</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-7646</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="119">
+            <Shape Id="Id Donde" Expanded="false">
+              <Attributes>
+                <Attribute Id="Id Donde" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Tienda" Expanded="true">
+              <Attributes>
+                <Attribute Id="Tienda" />
+                <Attribute Id="Cod Tienda" />
+              </Attributes>
+              <Position x="173" y="20" />
+            </Shape>
+            <Shape Id="Zona De Ventas" Expanded="false">
+              <Attributes>
+                <Attribute Id="Zona De Ventas" />
+              </Attributes>
+              <Position x="327" y="20" />
+            </Shape>
+            <Shape Id="Provincia" Expanded="false">
+              <Attributes>
+                <Attribute Id="Provincia" />
+              </Attributes>
+              <Position x="327" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c4ff94da-7386-4950-8d57-bb5ed35a77c7">
+    <DataSourceViewID>Ventas Enero PR3</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="b29716b6-d8ce-4953-ae37-d5a0cda2587d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1ec0fc85-8c85-40fd-a215-009b3bb62882">
+      <ID>Id Donde</ID>
+      <Name>Id Donde</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6562cdfd-b4db-4ecf-8483-eeb43630202f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="24a27a53-d6b5-4ab9-9988-24cc82aade19">
+            <TableID>Donde</TableID>
+            <ColumnID>Id_Donde</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7d75ce75-14a9-4a54-a7be-d8ce20b10622">
+          <AttributeID>Tienda</AttributeID>
+          <Name>Tienda</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="8fe4b43d-537a-4619-93af-066111ad38aa">
+      <ID>Tienda</ID>
+      <Name>Tienda</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8530b502-28e9-4b87-89ae-9359677df07c">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7685e663-b5e2-416a-ace5-6545f89e1f36">
+            <TableID>Donde</TableID>
+            <ColumnID>Tienda</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="be16bff5-7f4a-424b-94fd-756566dbe6af">
+          <AttributeID>Provincia</AttributeID>
+          <Name>Provincia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="14490b2e-90ce-4f73-a649-1d0e0aef8a9b">
+          <AttributeID>Zona De Ventas</AttributeID>
+          <Name>Zona De Ventas</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dc64844b-f0e5-4c6c-9623-39b1cac54356">
+          <AttributeID>Cod Tienda</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Cod Tienda</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="159076ef-fc67-45df-91a8-0f5d7af3afd0">
+      <ID>Zona De Ventas</ID>
+      <Name>Zona De Ventas</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e6b40383-d795-4358-ba99-0515e4debd3b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="03ea78e8-e172-4ca1-a5bf-e0a9d600171b">
+            <TableID>Donde</TableID>
+            <ColumnID>Zona_de_ventas</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="27fe6a0a-80d8-4aae-99ff-e7b2ff8653c2">
+      <ID>Provincia</ID>
+      <Name>Provincia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="05ed05d7-b4df-45ee-bf0b-5748b2e4dcea">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ecca3029-f62d-41fa-b6df-17e820fdcaa4">
+            <TableID>Donde</TableID>
+            <ColumnID>Provincia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="1cd646af-31e0-40c0-97ee-526ac03daa84">
+      <ID>Cod Tienda</ID>
+      <Name>Cod Tienda</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b551e34b-bffb-4636-9a83-b975821363ce">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c47e25f2-f815-47fd-99dc-42e8e765865a">
+            <TableID>Donde</TableID>
+            <ColumnID>Cod_tienda</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="bc032f23-c872-4425-8db8-382660860db5">
+      <ID>Hierarchy</ID>
+      <Name>J-Donde</Name>
+      <Levels>
+        <Level dwd:design-time-name="a361de86-5b3f-4726-a596-f4e155972566">
+          <ID>Provincia</ID>
+          <Name>Provincia</Name>
+          <SourceAttributeID>Provincia</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f0b0e372-9f74-47f7-8029-a84a0fd5e625">
+          <ID>Tienda</ID>
+          <Name>Tienda</Name>
+          <SourceAttributeID>Tienda</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="e3ddf754-d099-4d3c-af2b-5d064d0facc9">
+      <ID>Hierarchy 1</ID>
+      <Name>J-Donde1</Name>
+      <Levels>
+        <Level dwd:design-time-name="989204d3-29d1-4c82-9914-21248a064e6f">
+          <ID>Zona De Ventas</ID>
+          <Name>Zona De Ventas</Name>
+          <SourceAttributeID>Zona De Ventas</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c57f74e4-bc4c-4958-b5b5-e41936c726b2">
+          <ID>Tienda</ID>
+          <Name>Tienda</Name>
+          <SourceAttributeID>Tienda</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>
